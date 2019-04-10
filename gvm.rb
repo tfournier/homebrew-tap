@@ -2,9 +2,9 @@
 class Gvm < Formula
   desc ""
   homepage ""
-  url "https://github.com/tfournier/gvm/releases/download/0.0.2/gvm_0.0.2_Darwin_x86_64.tar.gz"
-  version "0.0.2"
-  sha256 "09faf52e8c75a0e8f29e40df74ac0636ef60910011a76a6ea119996b1fb6efd0"
+  url "https://github.com/tfournier/gvm/releases/download/0.0.5/gvm_0.0.5_Darwin_x86_64.tar.gz"
+  version "0.0.5"
+  sha256 "ad1f96c9f59b50eb8e048e80930c8bfc877d7a7c3872f4149af1f9ecfb989090"
 
   def install
     bin.install "gvm"
