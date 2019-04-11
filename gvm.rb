@@ -2,9 +2,9 @@
 class Gvm < Formula
   desc "GVM will allow you to easily install, use and/or delete Golang versions from the official servers."
   homepage ""
-  url "https://github.com/tfournier/gvm/releases/download/0.0.18/gvm_Darwin_x86_64.tar.gz"
-  version "0.0.18"
-  sha256 "3d34a999d160f19392205159911f298d3ccd7a46b9ff96a7ee25171468f60b29"
+  url "https://github.com/tfournier/gvm/releases/download/0.0.20/gvm_Darwin_x86_64.tar.gz"
+  version "0.0.20"
+  sha256 "4b95a844ca7a68ab0c725ac733fb803d0982ca0eff407350916e56a1689da82a"
 
   def install
     bin.install "gvm"
